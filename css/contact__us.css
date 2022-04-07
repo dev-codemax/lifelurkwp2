@@ -1,0 +1,186 @@
+body {
+  background: linear-gradient(180deg, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+
+.contactus__wrapper {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0rem 3.2rem;
+  margin: 0 auto;
+}
+
+/* efefef */
+
+
+
+.main__title {
+  margin-top: 15rem;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main__slogan {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+
+@media screen and (max-width: 550px) {
+  .main__title {
+    margin-top: 12rem;
+    font-size: 4rem;
+  }
+}
+
+/* cards  */
+.cards {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.card {
+  max-width: 600px;
+  background-color: white;
+  position: relative;
+  transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 10px rgb(0, 0, 0, .25);
+}
+
+
+
+.card__icon {
+  position: absolute;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  top: -35px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, .1);
+}
+
+
+.card__content {
+  padding: 1rem;
+}
+
+
+.card__content h3 {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 550px) {
+
+  .card__content h3 {
+    font-size: 3rem;
+  }
+
+}
+
+.card__content p {
+  margin-top: 1.5rem;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card__link {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 25px;
+  height: 40px;
+  width: 230px;
+  border: 1px solid rgb(12, 12, 12);
+  transition: all 0.5s ease;
+  border-radius: 25px;
+  color: black;
+}
+
+.card__link:hover {
+  box-shadow: 0 5px 10px rgb(0, 0, 0, .15);
+  background-color: black;
+  color: white;
+}
+
+.card__link a {
+  font-size: 1.3rem;
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+/* icons */
+
+.icons {
+  margin-top: 4rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+
+}
+
+.icon {
+  opacity: 60%;
+}
+
+.icon:hover {
+  opacity: 80%;
+}
+
+
+.icons a {
+  color: black;
+}
+
+
+/* address */
+
+.address__title {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  opacity: 70%;
+}
+
+.address__details {
+  opacity: 70%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* privacy */
+
+
+.privacy {
+  margin-top: 2rem;
+  opacity: 70%;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 6rem;
+}
