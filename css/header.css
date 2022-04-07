@@ -1,5 +1,5 @@
 :root {
-  --primary2: #f9d029;
+  --primary2: #FCDF3E;
   --secondaryDark: rgb(17, 17, 17);
   --textColor: rgb(45, 45, 45);
   --primary: #0d0e0e;
@@ -296,17 +296,56 @@ body {
     display: none;
   }
 
-  .nav__mobi__list {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
-    gap: 17rem 4rem;
-  }
-
   .search__container {
     display: none !important;
   }
 
 }
+
+
+@media screen and (max-width:550px) {
+
+  .hero__click__wrapper {
+    padding: 8rem 4.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: scroll;
+  }
+
+  .nav__mobi__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  /* .nav__mobi__list .menu-item-has-children::before {
+    content: '+';
+    color: var(--textColor);
+    font-weight: 400;
+    opacity: 80%;
+    right: 55px;
+    position: absolute;
+  } */
+
+  .plus__icon {
+    right: 55px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .nav__mobi__list .menu-item-has-children .sub-menu {
+    display: none;
+    gap: 3rem;
+  }
+
+  .nav__mobi__list .menu-item-has-children .sub-menu__active {
+    display: block !important;
+  }
+
+}
+
 
 
 
