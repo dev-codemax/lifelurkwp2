@@ -29,7 +29,9 @@
 
 
         <!-- logo -->
-        <div class="logo"><a href="<?php echo site_url(); ?>">Lifelurk</a></div>
+        <div class="logo"><a href="<?php echo site_url(); ?>">
+      <img src="<?php  echo get_template_directory_uri(); ?>/images/logo-lifelurk.svg" alt="lifelurks's logo">
+      </a></div>
 
 
         <!-- navigation -->

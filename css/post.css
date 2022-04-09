@@ -4,7 +4,6 @@
 
 body {
   background-color: #f8f8f8;
-  height: 200vh;
 }
 
 #scroll-progress {
@@ -12,17 +11,15 @@ body {
   top: 60px;
   width: 0%;
   height: 6px;
-  background: #afafaf;
+  background: #fcdf3e;
   z-index: 10000;
 }
 
 .single__post .post__title {
   padding: 0 5rem;
-
 }
 
 .single__post .post__subtitle {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,21 +40,16 @@ body {
   align-items: center;
 }
 
-
 @media screen and (max-width: 760px) {
-
   .single__post .post__title {
     padding: 0 2rem;
-
   }
 
   .single__post .post__subtitle {
-
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0 2rem;
-
   }
 
   .single__post .post__upper__right {
@@ -67,11 +59,7 @@ body {
   }
 }
 
-
-
-
 .single__post .share__post {
-
   position: fixed;
   /* width: 75px; */
   background-color: white;
@@ -110,7 +98,6 @@ body {
   color: rgb(33 155 207);
 }
 
-
 .single__post .share__post .share__fb2 {
   margin-top: 1rem;
   color: rgb(102 103 157);
@@ -122,11 +109,6 @@ body {
   color: rgb(33 155 207);
 }
 
-
-
-
-
-
 .single__post .post__wrraper {
   width: 100%;
   max-width: 900px;
@@ -136,7 +118,6 @@ body {
   flex-direction: column;
   /* align-items: center; */
 }
-
 
 .single__post p {
   line-height: 31.24px;
@@ -156,7 +137,6 @@ body {
   color: var(--textColor);
 }
 
-
 .single__post h1 {
   font-size: 45px;
   letter-spacing: 0.2px;
@@ -175,9 +155,6 @@ body {
   color: var(--textColor);
 }
 
-
-
-
 .single__post img {
   width: 100%;
   object-fit: cover;
@@ -185,13 +162,10 @@ body {
   margin-bottom: 40px;
 }
 
-
 @media screen and (max-width: 760px) {
-
   .single__post .post__wrraper {
     padding: 0rem 2rem;
   }
-
 
   .single__post p {
     line-height: 31.24px;
@@ -208,7 +182,6 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
 
   .single__post h1 {
     font-size: 35px;
@@ -227,5 +200,4 @@ body {
   .single__post .share__post {
     display: none;
   }
-
 }

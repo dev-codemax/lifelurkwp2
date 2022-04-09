@@ -13,7 +13,7 @@
       </div>
       <div class="hero__right">
         <img
-          src="<?php  echo get_template_directory_uri(); ?>/images/Home.png"
+          src="<?php  echo get_template_directory_uri(); ?>/images/Home.jpg"
           alt="">
       </div>
     </section>
@@ -22,11 +22,11 @@
 
     <section class="home__post wrraper">
 
-      <h2 class="home__post__title">Latest Posts</h2>
-      <p class="home__post__describtion">Connect teams, tools, and information so you can execute together, faster.
+      <h2 id="showing__post" class="home__post__title">Latest Posts</h2>
+      <p class="home__post__describtion">Recent posts that will help you become better every day.
       </p>
 
-      <div id="showing__post"class="post">
+      <div class="post">
 
 
         <div class="post__left">

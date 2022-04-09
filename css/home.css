@@ -54,6 +54,10 @@
 .hero__right {
   grid-area: illustration;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 
   /* border: 2px solid blue; */
 }

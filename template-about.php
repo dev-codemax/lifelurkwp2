@@ -16,7 +16,7 @@
      
 
         <section class="about__first aboutGrid">
-        <img src="<?php  echo get_template_directory_uri(); ?>/images/Home.png" alt="">
+        <img src="<?php  echo get_template_directory_uri(); ?>/images/About1.svg" alt="">
           <div>
             <h2 >Who We Are</h2>
             <p>Hello, The face behind Lifelurk is Aman Sharma & Vipul Kumar. Like many people, we are keenly interested in
@@ -34,7 +34,7 @@
 
 
           <section class="about__second aboutGrid dark">
-          <img src="<?php  echo get_template_directory_uri(); ?>/images/Home.png" alt="">
+          <img src="<?php  echo get_template_directory_uri(); ?>/images/About2.svg" alt="">
               <div>
                 <h2>| The thing that matters is <i> Consistency over Intensity </i></h2>
                           <p>Like you, we work hard at improving our lives on a daily basis. Even though we developed a few positive
@@ -47,7 +47,7 @@
 
 
         <section class="about__third aboutGrid ">
-         <img src="<?php  echo get_template_directory_uri(); ?>/images/Home.png" alt="">
+         <img src="<?php  echo get_template_directory_uri(); ?>/images/About3.svg" alt="">
           <div>
             <h2>What is Lifelurk’s Purpose</h2>
             <p>At Lifelurk, we have helped lots of our readers get to the root of their own life's purpose by Teaching them
@@ -62,7 +62,7 @@
 
 
         <section class="about__fourth aboutGrid dark">
-         <img src="<?php  echo get_template_directory_uri(); ?>/images/Home.png" alt=""> 
+         <img src="<?php  echo get_template_directory_uri(); ?>/images/About4.svg" alt=""> 
           <div>
             <p>We have designed Lifelurk to help our readers in a variety of ways. Here you’ll learn:</p>
             <ul>

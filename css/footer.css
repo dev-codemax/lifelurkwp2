@@ -2,9 +2,10 @@
 
 .footer {
   width: 100%;
-  background-color: white;
-  color: var(--textColor);
   padding-block: 3rem;
+
+  background-color: #161616;
+  color: white;
 
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -61,7 +62,7 @@
 }
 
 .footer__top__left ul a {
-  color: var(--textColor);
+  color: rgb(217 217 217);
 }
 
 .footer__top__left a {
@@ -69,11 +70,11 @@
 }
 
 .footer__top__right svg {
-  color: var(--textColor);
+  color: rgb(217 217 217);
 }
 
 .footer__top__right svg:hover {
-  color: var(--textColorTitle);
+  color: white;
 }
 
 
@@ -87,7 +88,7 @@
 
 .footer__bottom__right a {
   margin: 1rem;
-  color: var(--textColor);
+  color: rgb(217 217 217);
 }
 
 

@@ -59,9 +59,10 @@ function lifelurk_register_scripts(){
 
   wp_enqueue_script('jquery');
 
-  wp_register_script('script',get_template_directory_uri().'/scripts/script.js',
+  wp_register_script('lifelurk__script',get_template_directory_uri().'/scripts/script.js',
   array('jquery'),false,true);
-  wp_enqueue_script('script');
+
+  wp_enqueue_script('lifelurk__script');
 
 }
 

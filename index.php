@@ -6,22 +6,26 @@ get_header('blog');
 
 
 <main class="posts">
+
+
+
+
+
     <section class="hero">
-
-
       <div class="hero__left">
         <h1>Blog</h1>
-        <p>Check out our blog for the latest tips, tricks, and happenings in business and design.</p>
+        <p>Read about all areas of life and unlock professional and personal growth.</p>
       </div>
-
       <div class="hero__right">
         <img
-          src="<?php  echo get_template_directory_uri(); ?>/images/Blog.png"
+          src="<?php  echo get_template_directory_uri(); ?>/images/Blog.jpg"
           alt="">
       </div>
-
-
     </section>
+
+ 
+
+    
 
     <div class="search">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search"
@@ -79,11 +83,7 @@ get_header('blog');
 
       <?php  } ?>
 
-
     </section>
-
-
-   <?php echo wp_pagenavi(); ?>
 
   </main>
 
