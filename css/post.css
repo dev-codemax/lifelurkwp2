@@ -15,6 +15,10 @@ body {
   z-index: 10000;
 }
 
+.single__post{
+  padding-bottom: 7rem;
+}
+
 .single__post .post__title {
   padding: 0 5rem;
 }
@@ -38,6 +42,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.single__post .post__upper__right a{
+  text-decoration: none;
 }
 
 @media screen and (max-width: 760px) {
@@ -127,6 +135,11 @@ body {
   color: var(--textColor);
 }
 
+.single__post ul {
+  list-style-position: inside;
+}
+
+
 .single__post li {
   line-height: 31.24px;
   letter-spacing: 0.44px;
@@ -149,6 +162,13 @@ body {
   letter-spacing: 0.2px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.single__post h3 {
+  font-size: 32px;
+  letter-spacing: 0.2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .single__post a {
@@ -195,6 +215,13 @@ body {
     letter-spacing: 0.2px;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  .single__post h3 {
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .single__post .share__post {

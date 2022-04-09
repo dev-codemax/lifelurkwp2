@@ -125,12 +125,12 @@ body {
 /* svg  */
 
 .nav__list .menu-item-has-children::after {
-  content: '∇';
+  content: '⯆';
   color: var(--textColor);
-  font-weight: 400;
+  font-weight: 600;
   position: absolute;
-  transform: translate(300%, 0%);
-  opacity: 80%;
+  transform: translate(218%, -7.5%);
+  opacity: 85%;
 }
 
 /* .menu-item-has-children svg {

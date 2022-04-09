@@ -48,7 +48,7 @@ html {
   align-items: start;
   justify-items: center;
   grid-template-columns: 1fr;
-  grid-template-areas: "title""illustration";
+  grid-template-areas: "illustration" "title";
 }
 
 .hero__left {
@@ -63,7 +63,7 @@ html {
 .hero__left h1 {
   font-size: 7rem;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -89,7 +89,7 @@ html {
 }
 
 .hero__right img {
-  margin-top: 5rem;
+  margin-top: 2rem;
   max-width: 450px;
   width: 100%;
   object-fit: cover;
@@ -100,7 +100,7 @@ html {
 
   .hero {
     grid-template-columns: 1fr;
-    grid-template-areas: "title""illustration";
+    grid-template-areas:"illustration" "title";
 
   }
 
@@ -120,7 +120,7 @@ html {
 
   .hero__left p {
     font-size: clamp(1.8rem, 5.5vw, 2.5rem);
-    margin-bottom: clamp(3rem, 10.4vw, 6rem);
+    margin-bottom: clamp(2rem, 6.4vw, 6rem);
   }
 
 }
@@ -141,7 +141,7 @@ html {
   max-width: 70rem;
   border-radius: 8px;
   color: var(--textColor);
-  margin: 8rem auto;
+  margin: 0rem auto;
   padding: 0 1.5rem;
   gap: 2rem;
 }
